@@ -1,0 +1,42 @@
+* {
+    box-sizing:border-box
+}
+body {
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:24px;
+    background:#f5f7fa;
+    color:#243047
+}
+header,main,footer {
+    max-width:1000px;
+    margin:0 auto 20px
+}
+.cards,.compare {
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px
+}
+.card {
+    width:220px;
+    padding:18px;
+    border:2px solid #4263eb;
+    margin:8px;
+    border-radius:12px;
+    background:white
+}
+.compare {
+    margin-top:28px
+}
+.compare article {
+    width:200px;
+    padding:18px;
+    border:5px solid #e67700;
+    background:#fff4e6
+}
+.content {
+    box-sizing:content-box
+}
+.border {
+    box-sizing:border-box
+}
